@@ -1,0 +1,28 @@
+# Compiled files
+*.exe
+*.out
+*.o
+*.obj
+
+# Problem description files (binary/text)
+problem.md
+*.txt
+*.pdf
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Only keep .cpp files
+# Ignore all files without extension
+*
+!*/
+!*.cpp
+!.gitignore
+!README.md
